@@ -43,6 +43,7 @@ const CreateBlog = () => {
           width={"50%"}
           border={3}
           borderRadius={10}
+          borderColor={"black"}
           padding={3}
           margin="auto"
           boxShadow={"10px 10px 20px #ccc"}
@@ -51,16 +52,16 @@ const CreateBlog = () => {
           marginTop="30px"
         >
           <Typography
-            variant="h2"
+            variant="h4"
             textAlign={"center"}
             fontWeight="bold"
             padding={3}
-            color="gray"
+            color="black"
           >
-            Create A Pots
+            CREATE YOUR BLOG
           </Typography>
           <InputLabel
-            sx={{ mb: 1, mt: 2, fontSize: "24px", fontWeight: "bold" }}
+            sx={{ mb: 1, mt: 2, fontSize: "24px", fontWeight: "bold", color:"black" }}
           >
             Title
           </InputLabel>
@@ -73,7 +74,7 @@ const CreateBlog = () => {
             required
           />
           <InputLabel
-            sx={{ mb: 1, mt: 2, fontSize: "24px", fontWeight: "bold" }}
+            sx={{ mb: 1, mt: 2, fontSize: "24px", fontWeight: "bold",color:"black" }}
           >
             Description
           </InputLabel>
@@ -86,7 +87,7 @@ const CreateBlog = () => {
             required
           />
           <InputLabel
-            sx={{ mb: 1, mt: 2, fontSize: "24px", fontWeight: "bold" }}
+            sx={{ mb: 1, mt: 2, fontSize: "24px", fontWeight: "bold",color:"black" }}
           >
             Image URL
           </InputLabel>

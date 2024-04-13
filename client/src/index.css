@@ -5,5 +5,33 @@
 }
 
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Robota", sans-serif;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+
+  color: #f3f1f5;
+  background: radial-gradient(#CCD0D8), (#CCD0D8);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  min-height: 80rem;
+}
+
+
+.ath{
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size:32px;
+color : blue;
+text-align:center;
+text-transform: uppercase;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

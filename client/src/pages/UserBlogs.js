@@ -36,7 +36,7 @@ const UserBlogs = () => {
           />
         ))
       ) : (
-        <h1>You Havent Created a blog</h1>
+        <h1 className="ath">"You Haven't Created a blog"</h1>
       )}
     </div>
   );

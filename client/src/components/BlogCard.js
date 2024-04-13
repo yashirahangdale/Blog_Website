@@ -31,7 +31,7 @@ export default function BlogCard({
     try {
       const { data } = await axios.delete(`/api/v1/blog/delete-blog/${id}`);
       if (data?.success) {
-        alert("Blog Deleted");
+        toast.success("Blog Deleted");
         window.location.reload();
       }
     } catch (error) {
